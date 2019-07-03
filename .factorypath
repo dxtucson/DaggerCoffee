@@ -1,0 +1,8 @@
+<factorypath>
+    <factorypathentry kind="WKSPJAR" id="/DaggerCoffee/libs/dagger-2.9.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/DaggerCoffee/libs/dagger-compiler-2.9.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/DaggerCoffee/libs/dagger-producers-2.9.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/DaggerCoffee/libs/guava-20.0-rc1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/DaggerCoffee/libs/javax.annotation-api-1.2.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/DaggerCoffee/libs/javax.inject-1.jar" enabled="true" runInBatchMode="false"/>
+</factorypath>
