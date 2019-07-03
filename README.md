@@ -1,15 +1,22 @@
-# DaggerCoffee<br />
-Since I heard the concept of dependency injection for the first time, I always wanted to create a simple project in Eclipse to test whether I understand the concepts correctly.<br />
+# DaggerCoffee
 <br />
-It turned out so hard... 2 years after using Dagger in Android apps, I returned to this topic and created this repo.<br />
+Since I heard the concept of dependency injection for the first time, I always wanted to create a simple project in Eclipse to test whether I understand the concepts correctly.
 <br />
-So there are 6 jars to be added to Build Path and Factory Path:<br />
+It turned out so hard... 2 years after using Dagger in Android apps, I returned to this topic and created this repo.
+<br />
+So there are 6 jars to be added to Build Path and Factory Path:
+<br />
 dagger-2.9.jar<br />
 dagger-compiler-2.9.jar<br />
 dagger-producers-2.9.jar<br />
 guava-20.0-rc1.jar<br />
 javax.inject-1.jar<br />
-javax.annotation-api-1.2.jar<br />
+javax.annotation-api-1.2.jar
+<br />
+I have to give credit to:
+https://my.oschina.net/ArvinChu/blog/861538
 <br />
 
-https://my.oschina.net/ArvinChu/blog/861538
+Modules can be viewed as providers, we define how to provide things in modules.
+Classes with @Inject annotations are receptors, where things can be injected to.
+Components are maps of dependencies, we define what dependency injections Dagger should take care for us in components.
