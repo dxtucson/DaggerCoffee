@@ -18,5 +18,5 @@ https://my.oschina.net/ArvinChu/blog/861538
 <br />
 
 Modules can be viewed as providers, we define how to provide things in modules.
-Classes with @Inject annotations are receptors, where things can be injected to.
-Components are maps of dependencies, we define what dependency injections Dagger should take care for us in components.
+<br />Classes with @Inject annotations are receptors, where dependencies can be injected to by Dagger.
+<br />Components are maps of dependencies, we define what injections Dagger should take care for us in components. We write components as interfaces, Dagger will generate the implementation code for us.
